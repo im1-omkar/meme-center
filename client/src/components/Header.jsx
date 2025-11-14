@@ -1,6 +1,5 @@
 import React from 'react';
 import burningHouse from '../assets/burningHouse.png';
-import Editor from './Editor';
 
 
 export default function Header() {
@@ -44,7 +43,7 @@ export default function Header() {
             }}
           ></div>
 
-              <Editor />   {/* attaches to the above div */}
+               
       </div>
         
         
