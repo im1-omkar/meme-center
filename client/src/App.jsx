@@ -17,7 +17,6 @@ function App() {
       id: "main-editor",
       defaultTool: "text",
       fullscreen: false,
-      hiddenTools: ["fullscreen"],
       defaultImageSize: "container",
       hiddenTools:[
         'crop', 'line', 'arrow', 'rect', 'ellipse', 'brush', 'rotate',
