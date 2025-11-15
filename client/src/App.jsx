@@ -15,10 +15,15 @@ function App() {
   useEffect(() => {
     ptr.current = Painterro({
       id: "main-editor",
-      defaultTool: "brush",
+      defaultTool: "text",
       fullscreen: false,
       hiddenTools: ["fullscreen"],
       defaultImageSize: "container",
+      hiddenTools:[
+        'crop', 'line', 'arrow', 'rect', 'ellipse', 'brush', 'rotate',
+        'resize', 'open', 'close', 'undo', 'redo', 'zoomin', 'zoomout',
+        'bucket',  'picker', 'eraser','settings','bold', 'select',
+        ],
     });
   }, []);
 
